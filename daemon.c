@@ -29,7 +29,7 @@
 int main() {
    time_t now;
    struct tm backup_time;
-   time(&now);  /* get current time; same as: now = time(NULL)  */
+   time(&now);  /* get current time; same as: now = time(NULL) */
    
    backup_time = *localtime(&now);
    backup_time.tm_hour = 1; 
@@ -129,4 +129,5 @@ int main() {
          closelog();
          return 0;
       } // end if else
+   } // end if else if
 } // end main
