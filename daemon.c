@@ -1,4 +1,5 @@
-/* At 11:30 pm , there will be a check for the xml files that have been uploaded or files that have not been upladed.
+/* 
+   At 11:30 pm, there wil  l be a check for the xml files that have been uploaded or files that have not been updated.
    At 1:00 am, the xml reports will be backed up from xml_upload_directory to dashboard_directory.
    
    Directories are locked during transfer / backup.
@@ -15,7 +16,7 @@
 #include <sys/stat.h>
 #include <time.h>
 #include "daemon_task.h"
-#include <signal.h> // 
+#include <signal.h> 
 
 int main() { // main function of daemon
    time_t now; // time_t is a type to represent time
