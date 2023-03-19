@@ -1,7 +1,7 @@
 #!/bin/sh
 
-SRC_DIR=/Users/jinapark/SS-CA-1/reports/*
-DEST=/Users/jinapark/SS-CA-1/dashboard/
+SRC_DIR=/home/jinapark/SS-CA-1-main/reports/*
+DEST=/home/jinapark/SS-CA-1-main/dashboard/
 
 mv $SRC_DIR $DEST
 

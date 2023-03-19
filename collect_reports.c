@@ -4,26 +4,27 @@
 #include <sys/wait.h>
 #include <syslog.h>
 
-void collect_reports(void) {
-    pid_t  pid;
-
-    pid = fork();
+void collect_reports(void) { // collect reports from upload directory
+    pid_t  pid; // process id
+    pid = fork(); // fork a child process
+    
     if (pid == 0) { // child
-        syslog(LOG_INFO, "COLLECTING REPORTS");
-        char *args[] = {"/bin/sh", "/home/alex/Desktop/assignment/src/scripts/collect_reports.sh", NULL};
-        execvp(args[0], args);
+        syslog(LOG_INFO, "COLLECTING REPORTS"); // log success
+        char *args[] = {"/bin/sh", "/home/jinapark/SS-CA-1-main/scripts/collect_reports.sh", NULL}; // arguments to be passed to execvp
+        execvp(args[0], args); // execute the script
+        
     } else { // parent
-        int status;
+        int status; // status of child process
                         
-        if(wait(&status) == -1) {
-            syslog(LOG_ERR, "collect_reports.c: wait() failed");
+        if(wait(&status) == -1) { // wait for child process to finish
+            syslog(LOG_ERR, "collect_reports.c: wait() failed"); // log error
         } // end if
 
-        if( (WIFEXITED(status)) ) {
-            if( WEXITSTATUS(status) != 0 ) {
-                syslog(LOG_ERR, "ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS %d", WEXITSTATUS(status));
-            } else {
-                syslog(LOG_INFO, "Successfully collected reports from upload directory, STATUS %d", WEXITSTATUS(status));
+        if( (WIFEXITED(status)) ) { // if child process exited normally
+            if( WEXITSTATUS(status) != 0 ) { // if child process exited with error
+                syslog(LOG_ERR, "ERROR COLLECTING REPORTS FROM UPLOAD DIRECTORY: STATUS %d", WEXITSTATUS(status)); // log error
+            } else { // if child process exited successfully
+                syslog(LOG_INFO, "Successfully collected reports from upload directory, STATUS %d", WEXITSTATUS(status)); // log success
             } // end if else
         } // end if
     } // end if else
