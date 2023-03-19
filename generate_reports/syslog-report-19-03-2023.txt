@@ -1,0 +1,64 @@
+Mar 19 19:52:29 jinapark-virtual-machine LOG-DAEMON[3398]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 19:52:59 jinapark-virtual-machine LOG-DAEMON[3398]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 19:52:59 jinapark-virtual-machine LOG-DAEMON[3398]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 19:52:59 jinapark-virtual-machine LOG-DAEMON[3489]: COLLECTING REPORTS
+Mar 19 19:52:59 jinapark-virtual-machine LOG-DAEMON[3398]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 19:52:59 jinapark-virtual-machine LOG-DAEMON[3398]: Successfully backed up dashboard, STATUS 0
+Mar 19 19:53:29 jinapark-virtual-machine LOG-DAEMON[3398]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 19:53:30 jinapark-virtual-machine LOG-DAEMON[3398]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 20:46:59 jinapark-virtual-machine LOG-DAEMON[4452]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 20:47:24 jinapark-virtual-machine LOG-DAEMON[4452]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 20:47:24 jinapark-virtual-machine LOG-DAEMON[4452]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 20:47:24 jinapark-virtual-machine LOG-DAEMON[4514]: COLLECTING REPORTS
+Mar 19 20:47:24 jinapark-virtual-machine LOG-DAEMON[4452]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 20:47:24 jinapark-virtual-machine LOG-DAEMON[4452]: Successfully backed up dashboard, STATUS 0
+Mar 19 20:47:54 jinapark-virtual-machine LOG-DAEMON[4452]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 20:47:54 jinapark-virtual-machine LOG-DAEMON[4452]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:02:59 jinapark-virtual-machine LOG-DAEMON[4838]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:03:26 jinapark-virtual-machine LOG-DAEMON[4838]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 21:03:26 jinapark-virtual-machine LOG-DAEMON[4838]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 21:03:26 jinapark-virtual-machine LOG-DAEMON[4907]: COLLECTING REPORTS
+Mar 19 21:03:26 jinapark-virtual-machine LOG-DAEMON[4838]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 21:03:26 jinapark-virtual-machine LOG-DAEMON[4838]: Successfully backed up dashboard, STATUS 0
+Mar 19 21:03:56 jinapark-virtual-machine LOG-DAEMON[4838]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:03:56 jinapark-virtual-machine LOG-DAEMON[4838]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:12:19 jinapark-virtual-machine LOG-DAEMON[5181]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:12:45 jinapark-virtual-machine LOG-DAEMON[5181]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 21:12:45 jinapark-virtual-machine LOG-DAEMON[5181]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 21:12:45 jinapark-virtual-machine LOG-DAEMON[5243]: COLLECTING REPORTS
+Mar 19 21:12:45 jinapark-virtual-machine LOG-DAEMON[5181]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 21:12:45 jinapark-virtual-machine LOG-DAEMON[5181]: Successfully backed up dashboard, STATUS 0
+Mar 19 21:13:15 jinapark-virtual-machine LOG-DAEMON[5181]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:13:15 jinapark-virtual-machine LOG-DAEMON[5181]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:19:10 jinapark-virtual-machine LOG-DAEMON[5523]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:19:32 jinapark-virtual-machine LOG-DAEMON[5523]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 21:19:32 jinapark-virtual-machine LOG-DAEMON[5523]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 21:19:32 jinapark-virtual-machine LOG-DAEMON[5610]: COLLECTING REPORTS
+Mar 19 21:19:32 jinapark-virtual-machine LOG-DAEMON[5523]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 21:19:32 jinapark-virtual-machine LOG-DAEMON[5523]: Successfully backed up dashboard, STATUS 0
+Mar 19 21:20:02 jinapark-virtual-machine LOG-DAEMON[5523]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:20:02 jinapark-virtual-machine LOG-DAEMON[5523]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:36:36 jinapark-virtual-machine LOG-DAEMON[3550]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:37:01 jinapark-virtual-machine LOG-DAEMON[3550]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 21:37:01 jinapark-virtual-machine LOG-DAEMON[3550]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 21:37:01 jinapark-virtual-machine LOG-DAEMON[3624]: COLLECTING REPORTS
+Mar 19 21:37:01 jinapark-virtual-machine LOG-DAEMON[3550]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 21:37:01 jinapark-virtual-machine LOG-DAEMON[3550]: Successfully backed up dashboard, STATUS 0
+Mar 19 21:37:31 jinapark-virtual-machine LOG-DAEMON[3550]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:37:31 jinapark-virtual-machine LOG-DAEMON[3550]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:45:50 jinapark-virtual-machine LOG-DAEMON[4118]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:51:26 jinapark-virtual-machine LOG-DAEMON[4687]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 21:51:48 jinapark-virtual-machine LOG-DAEMON[4687]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 21:51:48 jinapark-virtual-machine LOG-DAEMON[4687]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 21:51:48 jinapark-virtual-machine LOG-DAEMON[4737]: COLLECTING REPORTS
+Mar 19 21:51:48 jinapark-virtual-machine LOG-DAEMON[4687]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 21:51:48 jinapark-virtual-machine LOG-DAEMON[4687]: Successfully backed up dashboard, STATUS 0
+Mar 19 21:52:18 jinapark-virtual-machine LOG-DAEMON[4687]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 21:52:19 jinapark-virtual-machine LOG-DAEMON[4687]: DIRECTORIES HAVE BEEN UNLOCKED
+Mar 19 22:42:48 jinapark-virtual-machine LOG-DAEMON[6568]: DAEMON STARTED FOR MANUFACTURING COMPANY
+Mar 19 22:43:01 jinapark-virtual-machine LOG-DAEMON[6568]: RECEIVED SIGNAL INTERRUPT, INITIATING BACKUP AND TRANSFER
+Mar 19 22:43:01 jinapark-virtual-machine LOG-DAEMON[6568]: DIRECTORIES HAVE BEEN LOCKED UNTIL BACKUP AND TRANSFER COMPLETES
+Mar 19 22:43:01 jinapark-virtual-machine LOG-DAEMON[6625]: COLLECTING REPORTS
+Mar 19 22:43:01 jinapark-virtual-machine LOG-DAEMON[6568]: Successfully collected reports from upload directory, STATUS 0
+Mar 19 22:43:01 jinapark-virtual-machine LOG-DAEMON[6568]: Successfully backed up dashboard, STATUS 0
+Mar 19 22:43:31 jinapark-virtual-machine LOG-DAEMON[6568]: DIRECTORIES HAVE BEEN UNLOCKED
