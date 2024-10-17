@@ -27,8 +27,7 @@ This project implements a daemon to manage XML report uploads and generate logs 
 To build the project, follow these steps.
 1. Clone the repository:
    git clone https://github.com/yourusername/xml-report-daemon.git
-   
-   cd xml-report-daemon
+   \ncd xml-report-daemon
 3. Compile the code using the Makefile:
    make
 
