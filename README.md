@@ -24,7 +24,7 @@ This project implements a daemon to manage XML report uploads and generate logs 
 9. Create a Makefile to manage the creation of executables.
 
 ## Installation
-To build the project, follow these steps:
+To build the project, follow these steps.
 1. Clone the repository:
    git clone https://github.com/yourusername/xml-report-daemon.git
    cd xml-report-daemon
@@ -35,9 +35,9 @@ To build the project, follow these steps:
 To run the daemon, execute the following command:
 ./daemon
 
-### Commands
+## Commands
 - To manually trigger a backup and transfer, send a specific signal to the daemon (e.g., `SIGUSR1`).
 - Check the logs for any errors or status updates.
 
-### Logging
+## Logging
 Logs are stored in the `logs/` directory. Change details, missed uploads, and errors are recorded in separate log files for easy monitoring.
