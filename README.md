@@ -37,6 +37,7 @@ To build the project, follow these steps.
 To run the daemon, execute the following command:
 ```bash
 ./daemon
+```
 
 ## Commands
 - To manually trigger a backup and transfer, send a specific signal to the daemon (e.g., `SIGUSR1`).
